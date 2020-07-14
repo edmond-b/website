@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={'eb-red.png'} className="App-logo" alt="logo" />
+        <img src={'icons/eb-red.png'} className="App-logo" alt="logo" />
         <p>
           Edmond Bullaj
         </p>
