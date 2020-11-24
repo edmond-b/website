@@ -1,3 +1,7 @@
+<img src={'icons/eb-red-small.png'} className="App-logo" alt="logo" />
+
+
+
 .App {
   text-align: center;
 }
