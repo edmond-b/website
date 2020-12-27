@@ -2,4 +2,7 @@
 
 # Personal Web Portfolio
 
-# [Site](https://edmondbullaj.netlify.app/)
+### [img src={'icons/eb-red-small.png'}](https://edmondbullaj.netlify.app/)
+
+## This website contains an overview of my work and capabilities
+It has been created using react
