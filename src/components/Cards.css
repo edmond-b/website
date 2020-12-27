@@ -26,9 +26,9 @@ h1 {
 }
 
 .cards__item {
-  display: felx;
+  display: flex;
   flex: 1;
-  margin: 0 1 rem;
+  margin: 0 1rem;
   border-radius: 10px;
 }
 
@@ -38,6 +38,7 @@ h1 {
   width: 100%;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -105,13 +106,13 @@ h1 {
 }
 
 @media only screen and (min-width: 1024px) {
-  .card__items {
+  .cards__items {
     display: flex;
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .card__item {
+@media only screen and (max-width: 1080px) {
+  .cards__item {
     margin-bottom: 2rem;
   }
 }
