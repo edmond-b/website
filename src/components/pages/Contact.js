@@ -6,6 +6,8 @@ function Contact() {
   return (
     <>
     <section className='footer-subscription'>
+      <h2>Proof of Concept</h2>
+      <h3>feature Coming Soon</h3>
       <p className='footer-subscription-heading'>
         Contact me
       </p>

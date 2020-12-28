@@ -5,41 +5,41 @@ import './Cards.css';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check this out</h1>
+      <h1>Here Are Some Highlights</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
+              src='images/run-boris-run.jpg'
               text="Keep Covid at Bay"
               label="Run Boris Run"
-              path='/run-boris-run'
+              path='/placeholder'
             />
             <CardItem
-              src="images/img-2.jpg"
+              src="images/makersbnb.jpg"
               text="Makers x AirBnb"
               label="MakersBnB"
-              path='/MakersBnB'
+              path='/placeholder'
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/img-5.jpg"
+              src="images/acebook.jpg"
               text="Makers X Facebook"
               label="Acebook"
-              path='/run-boris-run'
+              path='/placeholder'
             />
             <CardItem
-              src="images/img-4.jpg"
+              src="images/code.jpg"
               text="Bank tech test"
               label="Bank Tech"
-              path='/MakersBnB'
+              path='/placeholder'
             />
             <CardItem
-              src="images/img-6.jpg"
-              text="Delve into the 3D world"
+              src="images/blender.jpg"
+              text="Delve into the world of 3D"
               label="3D Modeling"
-              path='/MakersBnB'
+              path='/placeholder'
             />
           </ul>
         </div>

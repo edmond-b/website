@@ -8,7 +8,6 @@
 
 .hero-container {
   background: url('/images/img-home-2.jpg') center center/cover no-repeat;
-  background-position: bottom;
   height: 70vh;
   width: 100%;
   display: flex;

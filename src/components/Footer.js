@@ -9,19 +9,10 @@ function Footer() {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-item'>
-            <h2>About Us</h2>
-            <Link to='/info'>How it Works</Link>
+            <h2>About Me</h2>
+            <Link to='/info'>Previous Work</Link>
             <Link to='/'>References</Link>
-            <Link to='/'>Experience</Link>
-            <Link to='/'>Terms of services</Link>
-          </div>
-        </div>
-        <div className='footer-link-wrapper'>
-          <div className='footer-link-item'>
-            <h2>About Us</h2>
-            <Link to='/info'>How it Works</Link>
-            <Link to='/'>References</Link>
-            <Link to='/'>Experience</Link>
+            <Link to='/'>Programing Experience</Link>
             <Link to='/'>Terms of services</Link>
           </div>
         </div>
@@ -30,10 +21,10 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <img src={'icons/eb-red-small.png'} alt={'EB'} />
+              <img className='footer-img' src={'icons/eb-red-small.png'} alt={'EB'} />
             </Link>
           </div>
-          <small className='wesite-rights'>EB c 2020</small>
+          <small className='wesite-rights'>EB <i class="fas fa-copyright"></i> 2020</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'

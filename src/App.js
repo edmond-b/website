@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Info from './components/pages/Info';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
+import Placeholder from './components/pages/Placeholder';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/info' component={Info}/>
         <Route path='/projects' component={Projects}/>
         <Route path='/contact' component={Contact}/>
+        <Route path='/placeholder' component={Placeholder}/>
       </Switch>
     </Router>
     </>
