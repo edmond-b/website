@@ -24,7 +24,7 @@ function Footer() {
               <img className='footer-img' src={'icons/eb-red-small.png'} alt={'EB'} />
             </Link>
           </div>
-          <small className='wesite-rights'>EB <i class="fas fa-copyright"></i> 2020</small>
+          <small className='wesite-rights'>EB <i className="fas fa-copyright"></i> 2020</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
