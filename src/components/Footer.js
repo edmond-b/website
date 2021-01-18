@@ -7,7 +7,7 @@ function Footer() {
     <div className='footer-container'>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div className='footer-link-item'>
+          <div className='footer-link-items'>
             <h2>About Me</h2>
             <Link to='/info'>Previous Work</Link>
             <Link to='/'>References</Link>
@@ -23,7 +23,7 @@ function Footer() {
               <img className='footer-img' src={'icons/eb-red-small.png'} alt={'EB'} />
             </Link>
           </div>
-          <small className='wesite-rights'>EB <i className="fas fa-copyright"></i> 2020</small>
+          <small className='website-rights'>EB <i className="fas fa-copyright"></i> 2020</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
