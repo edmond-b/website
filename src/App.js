@@ -2,11 +2,11 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
-import Home from './components/pages/Home';
-import Info from './components/pages/Info';
-import Projects from './components/pages/Projects';
-import Contact from './components/pages/Contact';
-import Placeholder from './components/pages/Placeholder';
+import Home from './pages/Home';
+import Info from './pages/Info';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Placeholder from './pages/Placeholder';
 
 function App() {
   return (
