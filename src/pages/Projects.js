@@ -1,15 +1,15 @@
 import React from 'react';
 import '../App.css';
-import Info_Section from '../components/Info_Section';
+import InfoSection from '../components/InfoSection';
 import Footer from '../components/Footer';
 
 function Projects() {
   return (
     <>
-      <Info_Section/>
+      <InfoSection/>
       <Footer/>
     </>
-  )
+  );
 }
 
 export default Projects;

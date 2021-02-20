@@ -1,9 +1,9 @@
 import React from 'react'
 import CardItem from './CardItem'
-import Info_Item from './Info_Item'
-import './css/Info_Section.css'
+import InfoItem from './InfoItem'
+import './css/InfoSection.css'
 
-function Info_Section() {
+function InfoSection() {
   return (
     <div className='projects'>
       <h1>Projects</h1>
@@ -43,8 +43,8 @@ function Info_Section() {
           </ul>
         </div>
       </div>
-      <div className="info_container">        
-        <Info_Item
+      <div className="info_container">
+        <InfoItem
         label="Project"
         src="images/code.jpg"
         text="This is information about the project."
@@ -55,4 +55,4 @@ function Info_Section() {
 }
 
 
-export default Info_Section;
+export default InfoSection;

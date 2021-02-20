@@ -1,7 +1,7 @@
 import React from 'react'
-import './css/Info_Item.css'
+import './css/InfoItem.css'
 
-function Info_Item(props) {
+function InfoItem(props) {
   return (
     <div className="info_section">
       <figure className="info_label" data-category={props.label}>
@@ -14,4 +14,4 @@ function Info_Item(props) {
   )
 }
 
-export default Info_Item;
+export default InfoItem;
