@@ -32,4 +32,5 @@ h1 {
 
 .cards__items {
   margin-bottom: 24px;
+  clear: both;
 }
